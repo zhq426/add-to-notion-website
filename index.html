@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add to Notion - Save web content to Notion with one click</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Header -->
+    <header class="fixed w-full bg-white/80 backdrop-blur-md z-50 border-b border-gray-100">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <img src="logo.png" class="w-6 h-6" alt="logo">
+                <span class="font-semibold text-xl">Add to Notion</span>
+            </div>
+            <div class="flex items-center gap-6">
+                <a href="#features" class="text-gray-600 hover:text-gray-900">Features</a>
+                <a href="#how-it-works" class="text-gray-600 hover:text-gray-900">How it works</a>
+                <a href="https://github.com/aluoapp/add-to-notion/issues" target="_blank" class="text-gray-600 hover:text-gray-900">Support</a>
+                <a href="https://chrome.google.com/webstore/detail/add-to-notion/biiilcmpbeipakdmolgnkmliepobjnni" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors">
+                    Add to Chrome
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 bg-gradient-to-b from-blue-50/50">
+        <div class="container mx-auto px-6">
+            <div class="max-w-3xl mx-auto text-center">
+                <h1 class="text-5xl font-bold text-gray-900 mb-6">
+                    Save Web Content to Notion in One Click
+                </h1>
+                <p class="text-xl text-gray-600 mb-8">
+                    Transform how you collect and organize web content. Save articles, text snippets, and research directly to your Notion workspace - seamlessly and instantly.
+                </p>
+                <div class="flex justify-center gap-4">
+                    <a href="https://chrome.google.com/webstore/detail/add-to-notion/biiilcmpbeipakdmolgnkmliepobjnni" class="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-medium hover:bg-blue-700 transition-colors flex items-center gap-2">
+                        <img src="https://unpkg.com/lucide-static@latest/icons/chrome.svg" class="w-5 h-5" alt="chrome">
+                        Add to Chrome - It's Free
+                    </a>
+                </div>
+                <div class="mt-4 text-gray-500">
+                    Works with Chrome browser
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-16">Why Choose Add to Notion?</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-xl border border-gray-100">
+                    <img src="https://unpkg.com/lucide-static@latest/icons/book.svg" class="w-12 h-12 text-blue-600 mb-4" alt="feature">
+                    <h3 class="text-xl font-semibold mb-3">One-Click Save</h3>
+                    <p class="text-gray-600">Save any web content to Notion with just one click. No more copy-pasting or switching between tabs.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl border border-gray-100">
+                    <img src="https://unpkg.com/lucide-static@latest/icons/layout-dashboard.svg" class="w-12 h-12 text-blue-600 mb-4" alt="feature">
+                    <h3 class="text-xl font-semibold mb-3">Custom Database</h3>
+                    <p class="text-gray-600">Choose which Notion database to save to. Organize your content exactly how you want it.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl border border-gray-100">
+                    <img src="https://unpkg.com/lucide-static@latest/icons/shield-check.svg" class="w-12 h-12 text-blue-600 mb-4" alt="feature">
+                    <h3 class="text-xl font-semibold mb-3">Secure & Private</h3>
+                    <p class="text-gray-600">Your data is safe. We use official Notion API and never store your personal information.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Screenshots -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-6">See It in Action</h2>
+            <p class="text-xl text-gray-600 text-center mb-16 max-w-2xl mx-auto">
+                Seamlessly save and organize web content in your Notion workspace
+            </p>
+            
+            <!-- Screenshots Carousel -->
+            <div class="grid md:grid-cols-2 gap-8 items-center">
+                <div class="space-y-6">
+                    <!-- Main Screenshot -->
+                    <div class="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100">
+                        <img 
+                            src="4.png?q=80&w=2000"
+                            alt="Extension screenshot" 
+                            class="w-full h-auto"
+                        />
+                    </div>
+                    <!-- Thumbnails -->
+                    <div class="grid grid-cols-3 gap-4">
+                        <div class="bg-white rounded-xl shadow-sm overflow-hidden border border-gray-100 cursor-pointer hover:border-blue-500 transition-colors">
+                            <img 
+                                src="2.png?q=80&w=500"
+                                alt="Feature preview" 
+                                class="w-full h-auto"
+                            />
+                        </div>
+                        <div class="bg-white rounded-xl shadow-sm overflow-hidden border border-gray-100 cursor-pointer hover:border-blue-500 transition-colors">
+                            <img 
+                                src="3.png?q=80&w=500"
+                                alt="Feature preview" 
+                                class="w-full h-auto"
+                            />
+                        </div>
+                        <div class="bg-white rounded-xl shadow-sm overflow-hidden border border-gray-100 cursor-pointer hover:border-blue-500 transition-colors">
+                            <img 
+                                src="1.png?q=80&w=500"
+                                alt="Feature preview" 
+                                class="w-full h-auto"
+                            />
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Feature Highlights -->
+                <div class="space-y-8">
+                    <div class="flex gap-4 items-start">
+                        <div class="bg-blue-100 rounded-lg p-3">
+                            <img src="https://unpkg.com/lucide-static@latest/icons/mouse-pointer-click.svg" class="w-6 h-6 text-blue-600" alt="feature"/>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold mb-2">Right-Click to Save</h3>
+                            <p class="text-gray-600">Select any content on the web page and right-click to save it directly to your chosen Notion database.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4 items-start">
+                        <div class="bg-blue-100 rounded-lg p-3">
+                            <img src="https://unpkg.com/lucide-static@latest/icons/layout-template.svg" class="w-6 h-6 text-blue-600" alt="feature"/>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold mb-2">Smart Organization</h3>
+                            <p class="text-gray-600">Content is automatically organized with source URL, title, and custom properties in your Notion database.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4 items-start">
+                        <div class="bg-blue-100 rounded-lg p-3">
+                            <img src="https://unpkg.com/lucide-static@latest/icons/settings.svg" class="w-6 h-6 text-blue-600" alt="feature"/>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold mb-2">Customizable Settings</h3>
+                            <p class="text-gray-600">Configure your preferred Notion database and customize how content is saved to match your workflow.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it Works -->
+    <section id="how-it-works" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-16">How It Works</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <span class="text-2xl font-bold text-blue-600">1</span>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Install & Connect</h3>
+                    <p class="text-gray-600">Add the extension to Chrome and connect your Notion account</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <span class="text-2xl font-bold text-blue-600">2</span>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Select Content</h3>
+                    <p class="text-gray-600">Highlight any text on a webpage you want to save, Or directly save the page title and url</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <span class="text-2xl font-bold text-blue-600">3</span>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Save to Notion</h3>
+                    <p class="text-gray-600">Right-click and select where to save in your Notion workspace</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20">
+        <div class="container mx-auto px-6">
+            <div class="bg-blue-600 rounded-2xl p-12 text-center">
+                <h2 class="text-3xl font-bold text-white mb-6">
+                    Start Saving to Notion Today
+                </h2>
+                <p class="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+                    Join thousands of users who are already saving time and staying organized with Add to Notion.
+                </p>
+                <a href="https://chrome.google.com/webstore/detail/add-to-notion/biiilcmpbeipakdmolgnkmliepobjnni" class="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-medium hover:bg-blue-50 transition-colors inline-flex items-center gap-2">
+                    <img src="https://unpkg.com/lucide-static@latest/icons/download.svg" class="w-5 h-5" alt="download">
+                    Install Free Extension
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-50 py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                    <div class="flex items-center gap-2 mb-4">
+                        <img src="https://unpkg.com/lucide-static@latest/icons/bookmark.svg" class="w-6 h-6" alt="logo">
+                        <span class="font-semibold text-xl">Add to Notion</span>
+                    </div>
+                    <p class="text-gray-600 max-w-md">
+                        A browser extension that helps you save web content to Notion effortlessly.
+                    </p>
+                </div>
+                <div class="grid grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="font-semibold mb-4">Links</h3>
+                        <ul class="space-y-2">
+                            <li><a href="https://add2notion.aluo.app" class="text-gray-600 hover:text-gray-900">Website</a></li>
+                            <li><a href="https://github.com/aluoapp/add-to-notion/issues" class="text-gray-600 hover:text-gray-900">Support</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold mb-4">Contact</h3>
+                        <ul class="space-y-2">
+                            <li><a href="mailto:team@aluo.app" class="text-gray-600 hover:text-gray-900">team@aluo.app</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-200 mt-12 pt-8 text-center text-gray-600">
+                © 2024 Add to Notion. All rights reserved.
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
